@@ -9,19 +9,19 @@ Author;Wachira Edwin
 */
 
 
-#include <stdio.h>
-int main(){
+#include <stdio.h> //include the already developed programs/extra functionality to the program
+int main(){//declaring function that returns type int
 
-    char c;
+    char c; //declaring variables of type  char
     char C;
-    for(c='a';c<='z';c++){
+    for(c='a';c<='z';c++){//for loop that increments value of c to 'z' 
         putchar(c);
 
     }
-       for(C='A';C<='Z';C++){
+    for(C='A';C<='Z';C++){
         putchar(C);
 
     }
-    putchar('\n');
+    putchar('\n');//adding newline
     return 0;
 }
