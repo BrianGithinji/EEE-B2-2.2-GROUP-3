@@ -1,8 +1,8 @@
 # EEE-B2-GROUP-3
 Class Assignment
 
-Brian 
-Edwin
-Abel
-Jeff
-Joseph
+Brian </br>
+Edwin </br>
+Abel</br>
+Jeff </br>
+Joseph </br>
