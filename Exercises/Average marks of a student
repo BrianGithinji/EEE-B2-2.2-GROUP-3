@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    char name[50];
+    float english, math, science, average;
+
+    printf("Enter the name of the student: ");
+    scanf("%s", name);
+
+    printf("Enter the marks for English: ");
+    scanf("%f", &english);
+
+    printf("Enter the marks for Math: ");
+    scanf("%f", &math);
+
+    printf("Enter the marks for Science: ");
+    scanf("%f", &science);
+
+    average = (english + math + science) / 3;
+
+    printf("The average mark for %s is %.2f.\n", name, average);
+
+    return 0;
+}
