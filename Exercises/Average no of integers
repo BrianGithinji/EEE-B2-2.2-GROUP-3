@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int count, num, sum = 0;
+    float avg;
+
+    printf("Enter the count of integers: ");
+    scanf("%d", &count);
+
+    printf("Enter %d integers: ", count);
+
+    int i = 0;
+    while (i < count) {
+        scanf("%d", &num);
+        sum += num;
+        i++;
+    }
+
+    avg = (float) sum / count;
+
+    printf("The average of the numbers is %.2f", avg);
+
+    return 0;
+}
